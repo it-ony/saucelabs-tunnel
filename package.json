@@ -1,0 +1,43 @@
+{
+    "name": "saucelabs-tunnel",
+    "preferGlobal": "false",
+    "version": "0.1.0",
+    "author": "it-ony <saucelabs-tunnel@it-ony.de>",
+    "description": "Saucelabs tunnel is a nodejs library to establish a tunnel between saucelabs and your system.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -R spec --timeout 90000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/it-ony/saucelabs-tunnel.git"
+    },
+    "bugs": {
+        "url": "https://github.com/it-ony/saucelabs-tunnel/issues"
+    },
+    "keywords": [
+        "saucelabs", "tunnel"
+    ],
+    "dependencies": {
+        "saucelabs": "~0.0.7"
+    },
+    "devDependencies": {
+        "chai": "*",
+        "mocha": "*",
+        "colors": "*",
+        "flow.js": "*"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/it-ony/saucelabs-tunnel/blob/master/LICENSE"
+        }
+    ],
+    "engine": {
+        "node": ">=0.4"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "homepage": "http://rappidjs.com"
+}
